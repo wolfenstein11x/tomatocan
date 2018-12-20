@@ -1,11 +1,12 @@
 source 'http://rubygems.org'
-ruby "2.4.2"
+ruby "2.5.3"
 
 gem 'listen'
 gem 'rails-controller-testing'
+gem 'rake', '12.3.2'
 
-gem 'pg'
-#gem 'sqlite3'
+#gem 'pg'
+gem 'sqlite3'
 
 gem 'mandrill'	
 gem 'devise'
